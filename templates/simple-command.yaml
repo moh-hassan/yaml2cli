@@ -1,0 +1,18 @@
+﻿# yaml-language-server: $schema=https://raw.githubusercontent.com/moh-hassan/yaml2cli/refs/heads/main/schemas/CommandModel.json
+
+name: Demo
+description: Sample app
+options:
+  - name: verbose
+    type: bool
+    description: Enable verbose output
+    aliases: ["-v"]
+  - name: file
+    description: The file to read and display on the console
+    type: FileInfo
+    aliases: ["-f"]
+  
+
+
+
+    
